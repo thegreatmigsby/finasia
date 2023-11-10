@@ -1,0 +1,46 @@
+/* Réinitialisation des styles */
+html, body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Couleur de fond */
+    color: #333; /* Couleur du texte */
+}
+
+header {
+    background-color: #0077cc; /* Couleur de fond du header */
+    color: #fff; /* Couleur du texte dans le header */
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section, aside {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+article {
+    background-color: #fff; /* Couleur de fond des articles */
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333; /* Couleur de fond du footer */
+    color: #fff; /* Couleur du texte dans le footer */
+}
+
+/* Ajoutez d'autres styles selon vos besoins */
